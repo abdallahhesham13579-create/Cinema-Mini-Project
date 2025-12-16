@@ -27,7 +27,7 @@ async function getMovieDetails() {
                     <p><strong>Directeur:</strong> ${data.Director}</p>
                     <p><strong>Note:</strong> ⭐ ${data.imdbRating}/10</p>
                     <hr>
-                    <h3>Plot</h3>
+                    <h3>Résumé</h3>
                     <p style="line-height: 1.6;">${data.Plot}</p>
                 </div>
             </div>
