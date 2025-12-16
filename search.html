@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema</title>
+    <link rel="stylesheet" href="search.css" />
+    <link rel="icon" type="image/png" href="logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <img src="logo.jpg" alt="" class="logo" />
+    </div>
+
+    <a href="index.html">
+      <i class="fa-solid fa-angles-left"></i>
+      Retournez à L'accueil
+    </a>
+
+    <h1>Cherchez Votre Film</h1>
+
+    <div id="search-button">
+      <input type="text" id="filmName" placeholder="Enter Film Name" />
+      <button onclick="newSearch()">Cherchez</button>
+    </div>
+
+    <div id="filmPoster"></div>
+    <div id="loadMore">
+      <button id="loadMoreBtn" onclick="fetchData(true)" style="display: none">
+        Load More
+      </button>
+    </div>
+    <footer>
+      <h3>Contactez-nous</h3>
+      <p>Email : contact@example.com</p>
+      <p>Téléphone : +33 01 23 45 67 89</p>
+      <p>Adresse : 123 Avenue Demo, 75000 Paris</p>
+    </footer>
+    <script src="search.js"></script>
+  </body>
+</html>
