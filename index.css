@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+:root {
+  --redcol: #b82c37;
+  --whitecol: #fafafa;
+  --bluecol: #1d3557;
+  --creamcol: #fcecc9;
+}
+
+body {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--whitecol);
+  margin: 0%;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 10vw;
+}
+
+h1 {
+  color: var(--bluecol);
+  text-align: center;
+  margin: 0%;
+}
+
+h2 {
+  color: var(--bluecol);
+  margin-left: 1%;
+}
+
+a {
+  padding: 10px;
+  color: var(--redcol);
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+.my-glass {
+  transform: rotate(90deg);
+}
+a:link {
+  text-decoration: none;
+}
+#filmsTend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 200px;
+  row-gap: 50px;
+  padding: 20px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  column-gap: 0px;
+  row-gap: 10px;
+  border: 3px solid var(--bluecol);
+  border-radius: 6px;
+  padding: 2%;
+  background-color: var(--creamcol);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--redcol);
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+.movie-card p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+.movie-plot {
+  font-size: 12px;
+  color: var(--bluecol);
+}
+.movie-card button {
+  padding: 10px;
+  border-radius: 8px;
+  background: var(--redcol);
+  color: var(--creamcol);
+  margin: auto;
+}
+.movie-card button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--redcol);
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--redcol);
+  padding: 1%;
+  margin-top: auto;
+}
+footer h3,
+footer p {
+  color: var(--creamcol);
+}
