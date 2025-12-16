@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+:root {
+  --redcol: #b82c37;
+  --whitecol: #fafafa;
+  --bluecol: #1d3557;
+  --creamcol: #fcecc9;
+}
+body {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--whitecol);
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: var(--bluecol);
+}
+a:link {
+  text-decoration: none;
+  font-size: larger;
+  margin: 1%;
+}
+a::after {
+  text-decoration: none;
+}
+
+#filmDetails {
+  display: flex;
+  align-items: start;
+  gap: 2%;
+  margin: 1%;
+  margin-top: 0%;
+}
+
+#filmDetails img {
+  min-width: 100px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: var(--redcol);
+  padding: 1%;
+  margin-top: auto;
+}
+footer h3,
+footer p {
+  color: var(--creamcol);
+}
