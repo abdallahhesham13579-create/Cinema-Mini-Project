@@ -23,9 +23,9 @@ async function getMovieDetails() {
                     <h1>${data.Title}</h1>
                     <p style="color: gray;">${data.Year} • ${data.Runtime} • ${data.Rated}</p>
                     <p><strong>Genre:</strong> ${data.Genre}</p>
-                    <p><strong>Cast:</strong> ${data.Actors}</p>
-                    <p><strong>Director:</strong> ${data.Director}</p>
-                    <p><strong>Rating:</strong> ⭐ ${data.imdbRating}/10</p>
+                    <p><strong>Les acteurs:</strong> ${data.Actors}</p>
+                    <p><strong>Directeur:</strong> ${data.Director}</p>
+                    <p><strong>Note:</strong> ⭐ ${data.imdbRating}/10</p>
                     <hr>
                     <h3>Plot</h3>
                     <p style="line-height: 1.6;">${data.Plot}</p>
